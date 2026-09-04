@@ -6,7 +6,7 @@ body {
   margin: 0;
   background: #f4abef;
   color: #eee2e2;
-  font-family: "Helvetica Neue", Lobster, Lobster;
+  h1, h2 { font-family: "Lobster", lobster; }
 }
 
 #all-contents {
