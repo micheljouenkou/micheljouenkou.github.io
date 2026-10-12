@@ -8,7 +8,7 @@ var init = function (window) {
         canvas = app.canvas, 
         view = app.view,
         fps = draw.fps('#000');
-        
+         
     
     window.opspark.makeGame = function() {
         
@@ -78,7 +78,7 @@ var init = function (window) {
             // TODO 8 / TODO 9 : Iterate over the array
              for (var i = 0; i < circles.length; i++) {
                     physikz.updatePosition(circles[i]);
-                     game.checkCirclePosition([i])
+                    game.checkCirclePosition(circles[i]);
          
              }
             
@@ -107,7 +107,7 @@ var init = function (window) {
             if(bottomEdge < 0){
                 circle.y = canvas.height + circle.radius;
             }
-                if(topEdge < canvas.height){
+                if(topEdge > canvas.height){
                 circle.y = 0 - circle.radius; 
             }
 

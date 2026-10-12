@@ -1,3 +1,8 @@
+body {
+  background-image: url("../img/ciecularity\ background.jpg");
+  background-color: #202737;
+  
+}
 /* Game mode button styles */
 .game-mode-btn {
     margin: 5px;
